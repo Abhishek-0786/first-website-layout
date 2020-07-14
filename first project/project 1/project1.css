@@ -1,0 +1,131 @@
+.container{
+    max-width: 1400px;
+    margin: 0px auto;
+    background-color: white;
+}
+body{
+    background-color: rgb(106, 106, 180);
+}
+
+span {
+    color: red;
+    text-align: center;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+    color: #2c3e50;
+    padding: 10px;
+}
+
+.navbar {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 4.3em;
+}
+
+.navbar::before {
+    content: "";
+    background-color: #bab8b8;
+    opacity: 0.1;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+}
+
+.navbar a {
+    padding: 12px 10px 10px 41px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+
+
+.content h1 {
+    color: crimson;
+}
+
+.content p {
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.content a {
+    color: darkmagenta;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.content a:hover {
+    color: darkred;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 {
+    display: flex;
+    background-color: rgb(88, 40, 133);
+    margin: 26px 10px 17px 0px;
+
+}
+
+.box1con {
+    color: white;
+
+}
+
+.box2 {
+    display: flex;
+    background-color: red;
+    margin: 26px 10px 17px 0px;
+
+}
+
+.box2con {
+color: white;
+}
+
+.box3 {
+    display: flex;
+    background-color: grey;
+    margin: 26px 10px 17px 0px;
+
+}
+
+.box3con {
+color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    width: 70%;
+    
+
+}
+
+.footer {
+    background-color: brown;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
